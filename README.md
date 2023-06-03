@@ -4,7 +4,7 @@ My attempt at making a stealer with batch, it sucks. The script will not be upda
 
 # How to use
 
-### ⚠️ Windows 10 build 17063, or later (*cURL* is included)
+### ⚠️ Windows 10 build 17063, or later (*URL* is included)
 
 1. Change the webhook to yours.
 2. Remove the fail-safes. ("goto xxx")
