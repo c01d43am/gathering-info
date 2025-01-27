@@ -85,11 +85,6 @@ My attempt at making a stealer with batch, it sucks. The script will not be upda
 <details>
   <summary>Steam</summary>
  
-  * Logged in users (Username, email)
-  * Hidden ssfn files
-</details>
-<details>
-  <summary>Minecraft</summary>
  
 * Launcher profiles and accounts
 </details>
